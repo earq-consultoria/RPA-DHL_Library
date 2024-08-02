@@ -1,0 +1,64 @@
+{
+  "DisplayName": "ChangeOrganization_Oracle",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "CodigoFilial",
+      "DisplayName": "CodigoFilial",
+      "Category": null,
+      "Tooltip": "Branch code to be selected on OracleRP.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Time_out",
+      "DisplayName": "Time_out",
+      "Category": null,
+      "Tooltip": "Timeout in milliseconds the the activity waits to load the screens. The default value is 30000 ms.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "DelayBefore",
+      "DisplayName": "DelayBefore",
+      "Category": null,
+      "Tooltip": "Delay in milliseconds before to execute an action on screen.\n*The default value is 1000 ms.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CodigoTomador",
+      "DisplayName": "CodigoTomador",
+      "Category": null,
+      "Tooltip": "Company to be selected on OracleRP.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Erro",
+      "DisplayName": "Erro",
+      "Category": null,
+      "Tooltip": "If there was any exception this flag is set.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}
