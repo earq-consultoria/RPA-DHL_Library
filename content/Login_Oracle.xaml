@@ -601,7 +601,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" AlterIfDisabled="True" sap2010:Annotation.AnnotationText="Clica na filial de maior volume para otimizar tempo.&#xD;&#xA;Filial de maior volume: DOX - 01/08/2024" ClickType="CLICK_SINGLE" DisplayName="#4  -  Click 'DIV' - Click on 'BRZ DHL SOLS RI Manager' on selection tree" sap:VirtualizedContainerService.HintSize="496.6666666666667,152.66666666666666" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" AlterIfDisabled="True" sap2010:Annotation.AnnotationText="Clica na filial de maior volume para otimizar tempo.&#xA;Filial de maior volume: DOX - 01/08/2024" ClickType="CLICK_SINGLE" DisplayName="#4  -  Click 'DIV' - Click on 'BRZ DHL SOLS RI Manager' on selection tree" sap:VirtualizedContainerService.HintSize="496.6666666666667,152.66666666666666" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -613,7 +613,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="95574dbe-9d63-4dba-80ae-1df91897c156" InformativeScreenshot="5c8e2805f011f16287de9f2c91b97eea" Selector="&lt;html app='chrome.exe' title='Home' /&gt;&lt;webctrl id='region1' parentid='appsHeaderCell' parentname='DefaultFormName' tag='TABLE' /&gt;&lt;webctrl id='AppsNavLink' tag='A' aaname='BRZ DOX RI Manager' /&gt;" TimeoutMS="[Login_Timeout]">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="95574dbe-9d63-4dba-80ae-1df91897c156" InformativeScreenshot="5c8e2805f011f16287de9f2c91b97eea" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='region1' parentid='appsHeaderCell' parentname='DefaultFormName' tag='TABLE' /&gt;&lt;webctrl id='AppsNavLink' tag='A' aaname='BRZ DOX RI Manager' /&gt;" TimeoutMS="[Login_Timeout]">
                   <ui:Target.WaitForReady>
                     <InArgument x:TypeArguments="ui:WaitForReady" />
                   </ui:Target.WaitForReady>
@@ -625,7 +625,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:Click>
-            <ui:CommentOut sap2010:Annotation.AnnotationText="- Padrão antigo: elemento ficava em estrutura de dropdown.&#xD;&#xA;- Padrão novo: elemento fica dentro de uma estrutura de tabelas&#xD;&#xA;&#xD;&#xA;Alteração: 01/08/2024" DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="496.6666666666667,199.33333333333334" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+            <ui:CommentOut sap2010:Annotation.AnnotationText="- Padrão antigo: elemento ficava em estrutura de dropdown.&#xA;- Padrão novo: elemento fica dentro de uma estrutura de tabelas&#xA;&#xA;Alteração: 01/08/2024" DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="496.6666666666667,199.33333333333334" sap2010:WorkflowViewState.IdRef="CommentOut_3">
               <ui:CommentOut.Body>
                 <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,218" sap2010:WorkflowViewState.IdRef="Sequence_18">
                   <sap:WorkflowViewStateService.ViewState>
@@ -679,7 +679,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="216b19df-c56b-42f5-bcf5-abe010879c01" InformativeScreenshot="4d4c2d83ee109b3c32781802da743833" Selector="&lt;html app='chrome.exe' title='Home' /&gt;&lt;webctrl id='region1' parentid='appsHeaderCell' parentname='DefaultFormName' tag='TABLE' /&gt;&lt;webctrl id='*' tag='A' aaname='Entrada' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="216b19df-c56b-42f5-bcf5-abe010879c01" InformativeScreenshot="4d4c2d83ee109b3c32781802da743833" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='region1' parentid='appsHeaderCell' parentname='DefaultFormName' tag='TABLE' /&gt;&lt;webctrl tag='A' aaname='Entrada' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -743,7 +743,7 @@
                   </ui:CursorPosition>
                 </ui:Click.CursorPosition>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="88908fe4-911c-48a8-a3d7-32f5f90a447d" InformativeScreenshot="76e2641e7e3733bcbecd9804cbf4a261" Selector="&lt;html app='chrome.exe' title='Home' /&gt;&lt;webctrl aaname='Entry' parentid='Receipts' tag='DIV' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="88908fe4-911c-48a8-a3d7-32f5f90a447d" InformativeScreenshot="76e2641e7e3733bcbecd9804cbf4a261" Selector="&lt;html app='chrome.exe' title='Home' /&gt;&lt;webctrl id='region1' parentid='appsHeaderCell' parentname='DefaultFormName' tag='TABLE' /&gt;&lt;webctrl id='*' tag='A' aaname='Entry' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -765,7 +765,7 @@
                   </ui:CursorPosition>
                 </ui:Click.CursorPosition>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d9b7177a-2cfb-42f2-9b85-082d8e6265df" InformativeScreenshot="6741ed0e556d5844085cb4e7eb5e3e70" Selector="&lt;html app='chrome.exe' title='Home' /&gt;&lt;webctrl aaname='Ingreso' parentid='Receipts' tag='DIV' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d9b7177a-2cfb-42f2-9b85-082d8e6265df" InformativeScreenshot="6741ed0e556d5844085cb4e7eb5e3e70" Selector="&lt;html app='chrome.exe' title='Página Inicial' /&gt;&lt;webctrl id='region1' parentid='appsHeaderCell' tag='TABLE' /&gt;&lt;webctrl tag='A' aaname='Ingreso' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -787,7 +787,7 @@
                   </ui:CursorPosition>
                 </ui:Click.CursorPosition>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e42bded7-5ae9-449d-a8b1-bcd86841d3ab" InformativeScreenshot="76e2641e7e3733bcbecd9804cbf4a261" Selector="&lt;html app='chrome.exe' title='Home' /&gt;&lt;webctrl aaname='Entry' parentid='Receipts' tag='DIV' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e42bded7-5ae9-449d-a8b1-bcd86841d3ab" InformativeScreenshot="76e2641e7e3733bcbecd9804cbf4a261" Selector="&lt;html app='chrome.exe' title='Page d*accueil' /&gt;&lt;webctrl id='region1' parentid='appsHeaderCell' tag='TABLE' /&gt;&lt;webctrl tag='A' aaname='Entry' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
